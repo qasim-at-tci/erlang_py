@@ -12,6 +12,7 @@ python:
 before_install:
  - pip install -U pip wheel
  - pip install setuptools==60.8.2
+ - echo $TRAVIS_PYTHON_VERSION
 script: python setup.py test
 branches:
   only:
