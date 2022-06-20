@@ -16,6 +16,7 @@ script: python setup.py test
 branches:
   only:
     - master
+    - patch-1
 notifications:
   email:
     recipients:
